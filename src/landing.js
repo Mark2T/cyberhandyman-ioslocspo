@@ -117,7 +117,6 @@ footer b{ color:#8fe0e6; }
   <header>
     <div class="logowrap"><img class="logo" src="/icon.svg" alt=""></div>
     <h1>iOS Location Spoofer · 虚拟定位</h1>
-    <p class="ytline">📺 <a class="yt" href="https://www.youtube.com/@CyberHandyman/videos" target="_blank" rel="noopener">YouTube：CyberHandyman 赛博工具人</a></p>
     <p class="credit">
       fork from 鸣谢贡献者：<a href="https://github.com/Yu9191/wloc" target="_blank" rel="noopener">Yu9191</a> ·
       <a href="https://github.com/mekos2772/ios-location-spoofer" target="_blank" rel="noopener">mekos2772</a> ·
@@ -159,7 +158,7 @@ footer b{ color:#8fe0e6; }
 <div class="toast" id="toast"></div>
 <script>
 /* ---- Watermark: tiled, non-interactive, rebuilt if tampered with ---- */
-var WM_TEXT = 'YouTube：赛博工具人 @CyberHandyman 根据GitHub开源项目制作';
+var WM_TEXT = '';
 function buildWM(){
   var host = document.getElementById('wm');
   if (!host){ host = document.createElement('div'); host.id = 'wm'; host.className = 'wm'; host.setAttribute('aria-hidden','true'); document.body.appendChild(host); }
